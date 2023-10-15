@@ -1,14 +1,9 @@
-/**
- * Descrpition: 'C program that prints exactly \"Programming is like building a multilingual puzzle, followed by a new line.'
- *
- * Return: Always 0 (Success)
- */
-
 #include <stdio.h>
+
 /**
- * main: '\"Programming is like building a multilingual puzzle'
+ * main - Entry point of the program
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success
  */
 int main(void)
 {
