@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** 
+
+/**
  * main - this is the starting pont of the program
  *
  * Return: 0 if success
