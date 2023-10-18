@@ -10,6 +10,7 @@
 int main(void)
 {
 	int num;
+
 	num = 0;
 
 	while (num <= 15)
@@ -20,7 +21,6 @@ int main(void)
 			putchar('a' + num - 10);
 		num++;
 	}
-	
 	putchar(10);
 	return (0);
 }
