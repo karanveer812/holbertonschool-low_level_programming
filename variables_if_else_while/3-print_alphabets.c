@@ -10,21 +10,22 @@
 int main(void)
 {
 	int i;
-	int a;
 
-	i = 97;
-	a = 65;
+	i = 0;
 
-	while (i <= 122)
+	while (i < 26)
 	{
-		putchar (i);
+		putchar ('a' + i);
 		i++;
 	}
-	while (a <= 90)
-	{
-		putchar (a);
-		a++;
-	}
+
+	i = 0;
+
+	while (i < 26)
+        {
+                putchar ('A' + i);
+                i++;
+        }
 	putchar (10);
 
 	return (0);
