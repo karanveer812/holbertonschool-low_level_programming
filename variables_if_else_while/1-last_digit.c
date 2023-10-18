@@ -28,5 +28,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, a);
 	}
-	ireturn (0);
+	return (0);
 }
