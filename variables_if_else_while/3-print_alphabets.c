@@ -22,10 +22,10 @@ int main(void)
 	i = 0;
 
 	while (i < 26)
-        {
-                putchar ('A' + i);
-                i++;
-        }
+	{
+		putchar ('A' + i);
+		i++;
+	}
 	putchar (10);
 
 	return (0);
