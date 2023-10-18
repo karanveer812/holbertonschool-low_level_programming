@@ -21,10 +21,10 @@ int main(void)
 		i++;
 	}
 	while (a <= 90)
-        {
-                putchar (a);
-                a++;
-        }
+	{
+		putchar (a);
+		a++;
+	}
 	putchar (10);
 
 	return (0);
