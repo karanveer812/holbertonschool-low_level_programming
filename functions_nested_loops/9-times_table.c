@@ -12,6 +12,7 @@ void times_table(void)
 
 	while (x < 10)
 	{
+		_putchar('\n');
 		y = 0;
 		while (y < 10)
 		{
@@ -20,6 +21,5 @@ void times_table(void)
 			y++;
 		}
 		x++;
-		_putchar('\n');
 	}
 }
