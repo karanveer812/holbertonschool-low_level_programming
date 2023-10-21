@@ -11,13 +11,13 @@ void times_table(void)
 
 	while (x < 10)
 	{
+		y = 0;
 		while (y < 10)
 		{
-			_putchar(x + '0');
-			_putchar(y + '0');
+			_putchar((x * y) + '0');
 			y++;
 		}
-		_putchar('\n');
 		x++;
+		_putchar('\n');
 	}
 }
