@@ -6,10 +6,11 @@
 void print_alphabet_x10(void)
 {
 	int i = 0;
-	char ch = 'a';
+	char ch;
 
 	while(i <= 10)
 	{
+		ch = 'a';
 		while(ch <= 'z')
 		{
 			_putchar(ch);
@@ -17,5 +18,5 @@ void print_alphabet_x10(void)
 		}
 		i++;
 	}
-	_putchar(ch);
+	_putchar('\n');
 }
