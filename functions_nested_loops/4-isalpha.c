@@ -6,7 +6,7 @@
  *
  * Return: 1 if true
  */
-int _isupper(int c)
+int _isalpha(int c)
 {
 	return (c >= 'A' && c <= 'Z');
 }
