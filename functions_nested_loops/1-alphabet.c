@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * Main: Print alphabets
@@ -11,6 +11,8 @@ int main(void)
 	while (ch <= 'z')
 	{
 		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
+	return (0);
 }
