@@ -14,7 +14,8 @@ void times_table(void)
 		y = 0;
 		while (y < 10)
 		{
-			_putchar((x * y) + '0');
+			_putchar(((x * y) / 10) + '0');
+			_putchar(((x * y) % 10) + '0');
 			y++;
 		}
 		x++;
