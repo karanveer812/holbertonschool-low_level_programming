@@ -16,7 +16,7 @@ void times_table(void)
 		while (y < 10)
 		{
 			calc = ((x*y));
-			echo(calc);
+			printf(calc);
 			y++;
 		}
 		x++;
