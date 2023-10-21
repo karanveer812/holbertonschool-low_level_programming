@@ -10,7 +10,7 @@ void times_table(void)
 	int y;
 	int calc;
 
-	while (x < 10)
+	do
 	{
 		y = 0;
 		while (y < 10)
@@ -22,4 +22,5 @@ void times_table(void)
 		printf("\n");
 		x++;
 	}
+	while (x < 10);
 }
