@@ -2,11 +2,10 @@
 
 /**
  * Main: Print alphabets
- * Return: 0 if success
  */
 void print_alphabet(void)
 {
-	char ch = 0;
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
@@ -14,5 +13,4 @@ void print_alphabet(void)
 		ch++;
 	}
 	_putchar('\n');
-	return (0);
 }
