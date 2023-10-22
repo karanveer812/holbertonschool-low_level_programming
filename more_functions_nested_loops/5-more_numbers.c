@@ -8,12 +8,12 @@ void more_numbers(void)
 	int i = 0;
 	int y;
 
-	while (i <= 9)
+	while (i < 10)
 	{
 		y = 0;
 		while (y <= 14)
 		{
-			if (y > 10)
+			if (y >= 10)
 			{
 				_putchar((y / 10) + '0');
 			}
