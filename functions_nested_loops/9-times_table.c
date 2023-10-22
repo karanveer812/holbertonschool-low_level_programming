@@ -18,7 +18,7 @@ void times_table(void)
 			calc = ((x*y));
 			if (calc < 10)
 			{
-				_putchar(calc + '0')
+				_putchar(calc + '0');
 			}
 			else
 			{
