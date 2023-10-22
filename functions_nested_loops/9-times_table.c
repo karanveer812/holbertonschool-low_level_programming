@@ -24,14 +24,17 @@ void times_table(void)
 			{
 				_putchar((calc / 10) + '0');
 				_putchar((calc % 10) + '0');
-			}			
-			_putchar(',');
-			_putchar(' ');
-			if (calc < 10)
-			{
-				_putchar(' ');
 			}
-			y++;
+			if (y < 9) 
+			{
+				_putchar(',');
+				_putchar(' ');
+				if (calc < 10)
+				{
+					_putchar(' ');
+				}
+				y++;
+			}
 		}
 		_putchar('\n');
 		x++;
