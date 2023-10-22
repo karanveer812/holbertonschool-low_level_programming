@@ -10,7 +10,7 @@ void times_table(void)
 	int y;
 	int calc;
 
-	do
+	while (x < 10)
 	{
 		y = 0;
 		while (y < 10)
@@ -29,11 +29,14 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
+				if (calc < 10)
+				{
+					_putchar(' ');
+				}
 			}
 			y++;
 		}
 		_putchar('\n');
 		x++;
 	}
-	while (x < 10);
 }
