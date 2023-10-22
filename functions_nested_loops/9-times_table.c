@@ -20,8 +20,8 @@ void times_table(void)
 			_putchar((calc % 10) + '0');
 			if (y < 9)
 			{
-				_putchar(",");
-				_putchar(" ");
+				_putchar(',');
+				_putchar(' ');
 			}
 			y++;
 		}
