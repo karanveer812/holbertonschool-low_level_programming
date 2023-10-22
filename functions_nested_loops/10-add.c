@@ -3,7 +3,8 @@
 
 /**
  * add - add two integers
- * @a, @b: takes integers as an input
+ * @a: takes integers as an input
+ * @b: takes integers as an input
  *
  * Return: result
  */
