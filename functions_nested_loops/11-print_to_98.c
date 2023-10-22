@@ -8,6 +8,11 @@
 void print_to_98(int n)
 {
 	char end;
+
+	if (n < 0)
+	{
+		n = ((n * -1));
+	}
 	while (end != 'y')
 	{
 		if (n == 98)
@@ -24,7 +29,7 @@ void print_to_98(int n)
 		else if (n >= 10 || n <= -10)
 		{
 			_putchar((n / 10) + '0');
-                        _putchar((n % 10) + '0');
+			_putchar((n % 10) + '0');
 		}
 		else
 		{
@@ -36,13 +41,13 @@ void print_to_98(int n)
 			_putchar(' ');
 		}
 		if (n < 98)
-                {
-                        n++;
-                }
-                else if (n > 98)
-                {
-                        n--;
-                }
+		{
+			n++;
+		}
+		else if (n > 98)
+		{
+			n--;
+		}
 	}
 	_putchar('\n');
 }
