@@ -9,7 +9,7 @@ void print_to_98(int n)
 {
 	while (n != 98)
 	{
-		if (_abs(n) >= 100)
+		if (n >= 100)
 		{
 			int x = (n / 10);
 			_putchar((x / 10) + '0');
