@@ -7,7 +7,8 @@
  */
 void print_to_98(int n)
 {
-	while (n != 98)
+	char end;
+	while (end != 'y')
 	{
 		if (n < 98)
                 {
@@ -17,6 +18,10 @@ void print_to_98(int n)
                 {
                         n--;
                 }
+		if (n = 98)
+		{
+			end = 'y';
+		}
 		if (n >= 100 || n <= -100)
 		{
 			int x = (n / 10);
