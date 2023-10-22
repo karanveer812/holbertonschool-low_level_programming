@@ -9,10 +9,6 @@ void print_to_98(int n)
 {
 	char end;
 
-	if (n < 0)
-	{
-		n = ((n * -1));
-	}
 	while (end != 'y')
 	{
 		if (n == 98)
