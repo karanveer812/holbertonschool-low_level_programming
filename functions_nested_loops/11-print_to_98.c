@@ -9,6 +9,14 @@ void print_to_98(int n)
 {
 	while (n != 98)
 	{
+		if (n < 98)
+                {
+                        n++;
+                }
+                else if (n > 98)
+                {
+                        n--;
+                }
 		if (n >= 100 || n <= -100)
 		{
 			int x = (n / 10);
@@ -23,13 +31,5 @@ void print_to_98(int n)
 		}
 		_putchar(',');
 		_putchar(' ');
-		if (n < 98)
-		{
-			n++;
-		}
-		else if (n > 98)
-		{
-			n--;
-		}
 	}
 }
