@@ -23,8 +23,8 @@ void times_table(void)
 			else
 			{
 				_putchar((calc / 10) + '0');
+				_putchar((calc % 10) + '0');
 			}
-			_putchar((calc % 10) + '0');
 			if (y < 9)
 			{
 				_putchar(',');
