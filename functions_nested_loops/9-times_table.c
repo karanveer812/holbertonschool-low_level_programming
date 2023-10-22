@@ -16,7 +16,14 @@ void times_table(void)
 		while (y < 10)
 		{
 			calc = ((x*y));
-			_putchar((calc / 10) + '0');
+			if (calc < 10)
+			{
+				_putchar(calc + '0')
+			}
+			else
+			{
+				_putchar((calc / 10) + '0');
+			}
 			_putchar((calc % 10) + '0');
 			if (y < 9)
 			{
@@ -25,7 +32,7 @@ void times_table(void)
 			}
 			y++;
 		}
-		printf("\n");
+		_putchar('\n');
 		x++;
 	}
 	while (x < 10);
