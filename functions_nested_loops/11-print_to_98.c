@@ -10,14 +10,6 @@ void print_to_98(int n)
 	char end;
 	while (end != 'y')
 	{
-		if (n < 98)
-                {
-                        n++;
-                }
-                else if (n > 98)
-                {
-                        n--;
-                }
 		if (n == 98)
 		{
 			end = 'y';
@@ -36,5 +28,13 @@ void print_to_98(int n)
 		}
 		_putchar(',');
 		_putchar(' ');
+		 if (n < 98)
+                {
+                        n++;
+                }
+                else if (n > 98)
+                {
+                        n--;
+                }
 	}
 }
