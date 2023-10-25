@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- *  print_square - prints a square
- *  @size: take number as an input
+ *  main - Fizz-Buzz test
+ *
+ *  return: 0 if success
  */
 int main(void)
 {
