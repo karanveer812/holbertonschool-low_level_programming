@@ -8,10 +8,10 @@ void print_triangle(int size)
 {
 	int x, y, i;
 	y = 0;
-	i = size;
 
 	while (y <= size)
 	{
+		i = size - y;
 		x = 0;
 		while (i >= 0)
 		{
