@@ -2,8 +2,7 @@
 
 /**
  *  main - Fizz-Buzz test
- *
- *  return: 0 if success
+ *  Return: 0 if success
  */
 int main(void)
 {
@@ -12,9 +11,7 @@ int main(void)
 	while (i <= 100)
 	{
 		if ((i % 3) == 0 && (i % 5) == 0)
-		{
 			printf("FizzBuzz");
-		}
 		else if ((i % 3) == 0)
 		{
 			printf("Fizz");
