@@ -6,26 +6,24 @@
  */
 void print_triangle(int size)
 {
-	int x = (size - 1);
-	int i = 0;
+	int x, y, i;
+	x = 0;
+	y = 0;
+	i = size;
 
-	if (i <= size)
+	while (y <= size)
 	{
-		while (x > 0)
+		while (i <= 0)
 		{
-			while (x < i)
-			{
-				_putchar(' ');
-				x--;
-			}
-			i++;
-			_putchar('#');
-			_putchar('\n');
-			i++;
+			_putchar(' ');
+			i--;
 		}
-	}
-	else
-	{
+		while (x <= size)
+		{
+			_putchar('#');
+			x++
+		}
 		_putchar('\n');
+		y++;
 	}
 }
