@@ -8,11 +8,11 @@ void rev_string(char *s)
 {
 	int len = 0;
 	int rev = 0;
-	char* pX[];
+	char* pX;
 
 	while (s[len] != '\0')
 	{
-		pX[len] = &s[len];
+		pX = &s[len];
 		len++;
 	}
 
@@ -20,7 +20,7 @@ void rev_string(char *s)
 
 	while (len != 0)
 	{
-		s[(rev - len)] = &pX[len];
+		s[(rev - len)] = *pX;
 		len--;
 	}
 }
