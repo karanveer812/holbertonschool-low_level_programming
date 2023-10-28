@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * _strlen - output the string length
- * @s: takes string as input
- *
- * Return: Length of the input string
+ * _puts - output the string
+ * @str: takes string as input
  */
 void _puts(char *str)
 {
@@ -13,5 +11,6 @@ void _puts(char *str)
 	while (str[len] != '\0')
 	{
 		_putchar(str[len]);
+		len++;
 	}
 }
