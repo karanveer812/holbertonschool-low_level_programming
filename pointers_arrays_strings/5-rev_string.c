@@ -18,9 +18,10 @@ void rev_string(char *s)
 
 	rev = len;
 
+	puts(pX);
 	while (len != 0)
 	{
-		s[(rev - len)] = *pX[len];
+		s[(rev - len)] = *pX;
 		len--;
 	}
 }
