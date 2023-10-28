@@ -1,4 +1,3 @@
-<a href="doc:introduction" target="_blank">Introduction</a>
 0-reset_to_98.c: 0. 98 Battery st.
 
 1-swap.c: 1. Don't swap horses in crossing a stream
