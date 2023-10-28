@@ -6,6 +6,20 @@
  */
 void rev_string(char *s)
 {
-	char * pX;
-	char * pY;
+	int len = 0;
+	int rev = 0;
+	char* pX[];
+
+	while (s[len] != '\0')
+	{
+		len++;
+	}
+
+	rev = len;
+
+	while (len != 0)
+	{
+		s[(rev - len)] = pX[len];
+		len--;
+	}
 }
