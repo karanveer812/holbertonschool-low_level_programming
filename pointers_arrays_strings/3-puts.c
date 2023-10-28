@@ -6,7 +6,7 @@
  *
  * Return: Length of the input string
  */
-noid _puts(char *str)
+void _puts(char *str)
 {
 	int len = 0;
 
