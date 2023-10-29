@@ -19,7 +19,7 @@ void rev_string(char *s)
 	while (n >= 0)
 	{
 		s[(i - n)] = pX[n];
-		printf("%s", pX[n]);
+		printf("%d", pX[n]);
 		n--;
 	}
 }
