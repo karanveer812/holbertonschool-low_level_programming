@@ -16,9 +16,9 @@ void rev_string(char *s)
 		n++;
 	}
 	i = n - 1;
-	puts(s);
 	while (n >= 0)
 	{
+		puts(s[n])
 		s[(i - n)] = pX[n];
 		n--;
 	}
