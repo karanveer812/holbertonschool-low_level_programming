@@ -23,15 +23,15 @@ void puts_half(char *str)
 		i = (n - 1) / 2;
 	}
 
-	char ch[i];
 	int y = 0;
 
 	while (i <= n)
 	{
-		ch[y] = str[i];
+		x[y] = str[i];
+		_putchar(x[y]);
 		i++;
 		y++;
 	}
 
-	_putchar('\n')
+	_putchar('\n');
 }
