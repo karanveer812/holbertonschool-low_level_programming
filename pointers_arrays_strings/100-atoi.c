@@ -21,7 +21,7 @@ int _atoi(char *s)
 		}
 		n++;
 	}
-	puts(ch);
+	printf("%d, ", ch);
 
 	return (0);
 }
