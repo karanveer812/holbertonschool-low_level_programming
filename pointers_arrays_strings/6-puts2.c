@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * rev_string - output the string in reverse
- * @s: takes string as input
+ * puts2: print every second character of the string
+ * @str: takes string as input
  */
 void puts2(char *str)
 {
-	char x;
 	int n = 0;
 
 	while (str[n] != '\0')
