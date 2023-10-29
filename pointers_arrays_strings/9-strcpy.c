@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_array - n number of integers from an array
- * @a: takes int as input
- * @n: takes int as input
+ *  _strcpy - copy string from source to destination
+ * @dest: destination variable
+ * @src: source string
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -15,5 +15,7 @@ char *_strcpy(char *dest, char *src)
 		dest[n] = src[n];
 		n++;
 	}
+	dest[n] = '\0';
+
 	return (dest);
 }
