@@ -12,15 +12,15 @@ void rev_string(char *s)
 
 	while (s[len] != '\0')
 	{
-		pX = &s[len];
 		len++;
 	}
 
 	rev = len;
 
-	puts(pX);
-	while (len != 0)
+	while (len > [(rev - len)])
 	{
+		pX = *s[len]
+		s[len] = s[(rev - len)];
 		s[(rev - len)] = *pX;
 		len--;
 	}
