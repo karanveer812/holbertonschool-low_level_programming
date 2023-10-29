@@ -12,17 +12,18 @@ int _atoi(char *s)
 {
 	int n = 0;
 	int i = 0;
+	char ch = "";
 
 	while (s[n] != '\0')
 	{
 		if ((s[n] >= '0' && s[n] <= '9') || s[n] == '+' || s[n] == '-')
 		{
-			s[i] = s[n];
+			ch = ch + s[n];
 			i++;
 		}
 		n++;
 	}
-	puts(s);
+	puts(ch);
 
 	return (0);
 }
