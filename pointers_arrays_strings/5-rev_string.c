@@ -15,13 +15,14 @@ void rev_string(char *s)
 		len++;
 	}
 
-	rev = len;
+	--len;
 
-	while (len > (rev - len))
+	while (len > rev)
 	{
-		pX = &s[len];
-		s[len] = s[(rev - len)];
-		s[(rev - len)] = *pX;
-		len--;
+		pX = &s[rev];
+		s[rev] = s[len];
+		s[i] = *pX;
+		rev++;
+		len--
 	}
 }
