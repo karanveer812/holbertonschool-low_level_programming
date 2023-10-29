@@ -17,7 +17,7 @@ void rev_string(char *s)
 	i = n;
 	while (n >= 0)
 	{
-		s[n] = *pX[(i - n)];
+		s[n] = pX[(i - n)];
 		n--;
 	}
 }
