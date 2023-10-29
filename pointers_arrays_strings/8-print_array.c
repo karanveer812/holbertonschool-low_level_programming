@@ -2,7 +2,6 @@
 
 /**
  * print_array - n number of integers from an array
- *
  * @a: takes int as input
  * @n: takes int as input
  */
