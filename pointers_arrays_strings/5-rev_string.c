@@ -18,8 +18,8 @@ void rev_string(char *s)
 	i = n - 1;
 	while (n >= 0)
 	{
+		putchar(s[n]);
 		s[(i - n)] = pX[n];
-		putchar(pX[n]);
 		n--;
 	}
 }
