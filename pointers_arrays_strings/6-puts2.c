@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
  * puts2: print every second character of the string
- * 
+ *
  * @str: takes string as input
  */
 void puts2(char *str)
@@ -17,4 +16,5 @@ void puts2(char *str)
 		}
 		n++;
 	}
+	_putchar('\n');
 }
