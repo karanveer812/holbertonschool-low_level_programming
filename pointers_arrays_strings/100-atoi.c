@@ -11,17 +11,26 @@
 int _atoi(char *s)
 {
 	int n = 0;
-	char ch = "";
+	int sign = 1;
+	int result = "";
 
 	while (s[n] != '\0')
 	{
-		if ((s[n] >= '0' && s[n] <= '9') || s[n] == '+' || s[n] == '-')
+		if (s[n] >= '0' && s[n] <= '9')
 		{
-			ch = ch + *s[n];
+			result = result * 10 + s[n] - '0';
+		}
+		else if (s[n] == '+')
+		{
+			sign = sign * 1;
+		}
+		else if (s[n] == '-')
+		{
+			sign = sign * -1;
 		}
 		n++;
 	}
-	printf("%s, ", ch);
+	printf("%d, %d, ", sign, result);
 
 	return (0);
 }
