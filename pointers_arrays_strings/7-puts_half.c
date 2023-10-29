@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * rev_string - output the string in reverse
- * @s: takes string as input
+ * puts_half - Print the second half of a string
+ * @str: The input string
  */
 void puts_half(char *str)
 {
@@ -19,7 +19,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		i = (n - 1) / 2;
+		i = (n + 1) / 2;
 	}
 
 	while (i < n)
