@@ -13,12 +13,12 @@ void rev_string(char *s)
 
 	while (s[n] != '\0')
 	{
+		putchar(s[n]);
 		n++;
 	}
 	i = n - 1;
 	while (n >= 0)
 	{
-		putchar(s[n]);
 		s[(i - n)] = pX[n];
 		n--;
 	}
