@@ -11,7 +11,6 @@
 int _atoi(char *s)
 {
 	int n = 0;
-	int i = 0;
 	char ch = "";
 
 	while (s[n] != '\0')
@@ -19,7 +18,6 @@ int _atoi(char *s)
 		if ((s[n] >= '0' && s[n] <= '9') || s[n] == '+' || s[n] == '-')
 		{
 			ch = ch + s[n];
-			i++;
 		}
 		n++;
 	}
