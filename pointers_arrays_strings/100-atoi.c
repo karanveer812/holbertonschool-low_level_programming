@@ -8,7 +8,7 @@
  *
  * Return: copies string to the variable
  */
-int _atoi(char *s);
+int _atoi(char *s)
 {
 	int n = 0;
 	int i = 0;
