@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * puts2 - print every second character of the string
+ * print_array - n number of integers from an array
  *
- * @str: takes string as input
+ * @a: takes int as input
+ * @n: takes int as input
  */
 void print_array(int *a, int n)
 {
