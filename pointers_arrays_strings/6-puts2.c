@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * puts2: print every second character of the string
+ * puts2 - print every second character of the string
  *
  * @str: takes string as input
  */
