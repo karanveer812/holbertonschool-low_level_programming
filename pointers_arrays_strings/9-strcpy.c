@@ -16,5 +16,5 @@ char *_strcpy(char *dest, char *src)
 		n++;
 	}
 	puts(dest);
-	return ("test")
+	return ("test");
 }
