@@ -17,7 +17,7 @@ void rev_string(char *s)
 	}
 	i = n - 1;
 	n = 0;
-	while (n <= i) // Change the loop condition
+	while (n <= i)
 	{
 		x = s[n];
 		s[n] = s[i];
