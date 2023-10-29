@@ -2,6 +2,7 @@
 
 /**
  * puts2: print every second character of the string
+ * 
  * @str: takes string as input
  */
 void puts2(char *str)
@@ -10,10 +11,10 @@ void puts2(char *str)
 
 	while (str[n] != '\0')
 	{
-		n++;
 		if (n % 2 == 0)
 		{
 			_putchar(str[n]);
 		}
+		n++;
 	}
 }
