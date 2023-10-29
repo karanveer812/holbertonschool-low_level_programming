@@ -13,10 +13,10 @@ void rev_string(char *s)
 
 	while (s[n] != '\0')
 	{
-		putchar(s[n]);
 		n++;
 	}
 	i = n - 1;
+	printf("%c", s);
 	while (n >= 0)
 	{
 		s[(i - n)] = pX[n];
