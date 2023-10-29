@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- *  _strcpy - copy string from source to destination
- * @dest: destination variable
- * @src: source string
+ *  _atoi - extract number from string
+ * @s: source string
  *
- * Return: copies string to the variable
+ * Return: number extracted
  */
 int _atoi(char *s)
 {
@@ -30,7 +29,6 @@ int _atoi(char *s)
 		}
 		n++;
 	}
-	printf("%d, %d, ", sign, result);
 
-	return (0);
+	return (sign * result);
 }
