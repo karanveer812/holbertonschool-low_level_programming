@@ -19,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 		c++;
 	}
 
-	while (n > i)
+	while (n > c)
 	{
 		dest[c] = '\0';
 		i++;
