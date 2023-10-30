@@ -6,16 +6,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int n = 0;
+	int n, i = 0;
 
 	while (dest[n] != '\0')
 	{
 		n++;
 	}
-	while (src[n] != '\0')
+	while (src[i] != '\0')
 	{
-		dest = dest + src[n];
-		_putchar(src[n]);
+		dest[n] = src[i];
+		i++;
 		n++;
 	}
 	dest[n] = '\0';
