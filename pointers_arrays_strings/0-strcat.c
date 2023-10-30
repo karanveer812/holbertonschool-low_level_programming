@@ -7,8 +7,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	puts(dest);
-	puts(src);
+	puts(dest + src);
 
 	return ("test");
 }
