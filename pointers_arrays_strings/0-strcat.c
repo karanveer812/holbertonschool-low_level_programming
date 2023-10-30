@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * puts_half - Print the second half of a string
- * @str: The input string
+ * _strcat - Concatnate two strings
+ * @dest: destination string
+ * @src: The input string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -22,6 +23,5 @@ char *_strcat(char *dest, char *src)
 	       n++;
         }
 
-
-	return ("test");
+	return (dest);
 }
