@@ -8,5 +8,5 @@ char *_strcat(char *dest, char *src)
 {
 	*dest = *dest + *src + '\0';
 
-	return (dest);
+	return (*dest);
 }
