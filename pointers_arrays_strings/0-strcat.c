@@ -13,5 +13,11 @@ char *_strcat(char *dest, char *src)
 		n++;
 	}
 
+	while (src[i] != '\0')
+	{
+		_putchar(src[i]);
+		i++;
+	}
+
 	return (dest);
 }
