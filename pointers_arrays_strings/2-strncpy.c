@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncat - Concatnate two strings
+ * _strncpy - copy string from source to destination
  * @dest: destination string
  * @src: The input string
  * @n: take integer as input
