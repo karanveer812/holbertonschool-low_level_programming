@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * puts_half - Print the second half of a string
@@ -6,18 +7,8 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int n, i = 0;
-
-	while (dest[n] != '\0')
-	{
-		n++;
-	}
-
-	while (src[i] != '\0')
-	{
-		_putchar(src[i]);
-		i++;
-	}
+	puts(dest);
+	puts(src);
 
 	return ("test");
 }
