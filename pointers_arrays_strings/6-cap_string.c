@@ -16,10 +16,10 @@ char *cap_string(char *str)
 		if (str[len - 1] == ',' || str[len - 1] == ';' || str[len - 1] == '.' || str[len - 1] == '!' || str[len - 1] == '?' 
 		|| str[len - 1] == '"' || str[len - 1] == '(' || str[len - 1] == ')' || str[len - 1] =='{' || str[len - 1] == '}' || str[len - 1] == '0')
 		{
-			str[len] -= 32
+			str[len] -= 32;
 		}
 		len++;
 	}
 
-	return(str)
+	return(str);
 }
