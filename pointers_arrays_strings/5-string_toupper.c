@@ -6,11 +6,22 @@
  * @a: Take array as an input
  * @n: Number of elemaents in the arrray
  */
-char *string_toupper(char *ch)
+char *string_toupper(char *str)
 {
-	if (*ch >= 'a' && *ch <= 'z')
+	int len = 0;
+	int i = 0;
+
+	while (str[len] != '\0')
 	{
-		*ch = (*ch -32);
+		len++;
 	}
-	return (ch);
+	while (i <= (len - 1))
+	{
+		if (str[i] >= 'a' && str[i] <= 'z')
+		{
+			str[i] = str[i] - 32
+		}
+		i++;
+	}
+	return (str);
 }
