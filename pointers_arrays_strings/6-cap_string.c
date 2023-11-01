@@ -11,7 +11,7 @@ char *cap_string(char *str)
 {
 	int len = 0;
 
-	while (str[len] != '\0')
+	while (str[len])
 	{
 		if (str[len - 1] == ',' || str[len - 1] == ';' || str[len - 1] == '.' || str[len - 1] == '!' || str[len - 1] == '?' 
 		|| str[len - 1] == '"' || str[len - 1] == '(' || str[len - 1] == ')' || str[len - 1] =='{' || str[len - 1] == '}' || str[len - 1] == '0')
