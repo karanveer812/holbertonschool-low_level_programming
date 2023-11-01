@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * reverse_array - Reverse a given array
- * @a: Take array as an input
- * @n: Number of elemaents in the arrray
+ * string_toupper - Convert string to uppercase
+ * @str: Take string as an input
+ *
+ * Return: Converted string
  */
 char *string_toupper(char *str)
 {
