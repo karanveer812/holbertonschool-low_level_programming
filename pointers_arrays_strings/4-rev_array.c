@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strcmp - compare two strings
- * @s1: First string
- * @s2: second string
- *
- * Return: 0 if same
+ * reverse_array - Reverse a given array
+ * @a: Take array as an input
+ * @n: Number of elemaents in the arrray
  */
 void reverse_array(int *a, int n)
 {
