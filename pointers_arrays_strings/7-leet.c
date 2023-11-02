@@ -21,6 +21,7 @@ char *leet(char *str)
 			if (str[len] == letters[i])
 			{
 				str[len] = numbers[i];
+				putchar(numbers[i]);
 			}
 			i++;
 		}
