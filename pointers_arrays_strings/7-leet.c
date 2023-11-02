@@ -12,7 +12,7 @@ char *leet(char *str)
 	int len = 0;
 	int i = 0;
 	char letters[5] = {'a', 'e', 'o', 't', 'l'};
-	char numbers[5] = {4, 3, 0, 7, 1};
+	char numbers[5] = {'4', 3, 0, 7, 1};
 
 	while (str[len] != '\0')
 	{
@@ -24,7 +24,6 @@ char *leet(char *str)
 				i++;
 			}
 		}
-		putchar(str[len]);
 		len++;
 	}
 	return (str);
