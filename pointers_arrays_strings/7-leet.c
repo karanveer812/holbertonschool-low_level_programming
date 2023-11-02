@@ -18,10 +18,10 @@ char *leet(char *str)
 	{
 		while (i < 5)
 		{
+			putchar(numbers[i]);
 			if (str[len] == letters[i])
 			{
 				str[len] = numbers[i];
-				putchar(numbers[i]);
 			}
 			i++;
 		}
