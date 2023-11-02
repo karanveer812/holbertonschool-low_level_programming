@@ -16,10 +16,11 @@ char *leet(char *str)
 
 	while (str[len] != '\0')
 	{
-		while (letters[i] <= 5)
+		while (letters[i] < 5)
 		{
 			if (str[len] == letters[i])
 			{
+				putchar(str[len]);
 				str[len] = numbers[i];
 				i++;
 			}
