@@ -7,7 +7,7 @@
  *
  * Return: Converted string
  */
-char *string_toupper(char *str)
+char *leet(char *str)
 {
 	int len = 0;
 	int i = 0;
