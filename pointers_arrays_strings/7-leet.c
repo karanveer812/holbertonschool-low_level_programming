@@ -16,7 +16,7 @@ char *leet(char *str)
 
 	while (str[len] != '\0')
 	{
-		while (letters[i] < 5)
+		while (i < 5)
 		{
 			putchar(str[len]);
 			putchar(letters[i]);
