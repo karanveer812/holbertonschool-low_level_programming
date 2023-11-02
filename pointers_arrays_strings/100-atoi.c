@@ -29,7 +29,7 @@ int _atoi(char *s)
 		}
 		else if (s[n] == '-')
 		{
-			isign = sign * -1;
+			sign = sign * -1;
 		}
 		n++;
 	}
