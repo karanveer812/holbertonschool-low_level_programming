@@ -20,11 +20,11 @@ char *leet(char *str)
 		{
 			if (str[len] == letters[i])
 			{
-				putchar(str[len]);
 				str[len] = numbers[i];
 				i++;
 			}
 		}
+		putchar(str[len]);
 		len++;
 	}
 	return (str);
