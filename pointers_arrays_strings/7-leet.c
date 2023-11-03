@@ -20,6 +20,8 @@ char *leet(char *str)
 		{
 			if (str[len] == letters[i] || str[len] == (letters[i] + 32))
 			{
+				putchar(letters[i] + 32);
+				putchar(letters[i] + '32')
 				str[len] = numbers[i];
 				break;
 			}
