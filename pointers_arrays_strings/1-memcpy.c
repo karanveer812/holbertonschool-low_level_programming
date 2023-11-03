@@ -19,11 +19,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		c++;
 	}
 
-	while (n > c)
-	{
-		dest[c] = '\0';
-		c++;
-	}
-
 	return (dest);
 }
