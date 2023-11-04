@@ -27,14 +27,15 @@ char *_strstr(char *haystack, char *needle)
 			int haystackTemp = haystackLen;
 			int needleTemp = 0;
 
-			while (haystack(haystackTemp) == needle(needleTemp))
+			while (haystack[haystackTemp] == needle[needleTemp])
 			{
 				haystackTemp++;
 				needleTemp++;
 			}
 			if (needleTemp == needleLen)
 			{
-				return (haystack[haystackLen]);
+				char *p = &haystack[haystackLen]
+				return (p);
 			}
 		}
 		haystackLen++;
