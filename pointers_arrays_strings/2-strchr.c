@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _memset - set the memory byffer to the given byte
@@ -23,5 +22,5 @@ char *_strchr(char *s, char c)
 		}
 		i++;
 	}
-	return(NULL);
+	return("");
 }
