@@ -11,14 +11,8 @@
 char *_strchr(char *s, char c)
 {
 	int i = 0;
-	int n = 0;
 
-	while (s[n] != '\0')
-	{
-		n++;
-	}
-
-	while (s[i] <= n)
+	while (s[i] != '\0')
 	{
 		if (s[i] == c)
 		{
@@ -28,5 +22,13 @@ char *_strchr(char *s, char c)
 		}
 		i++;
 	}
-	return (NULL);
+	if (s[i + 1] == c)
+	{
+		char *p = &s[i + 1]
+		return (p)
+	}
+	else
+	{
+		return (NULL);
+	}
 }
