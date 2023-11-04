@@ -26,6 +26,7 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				byte++;
 				contains = 'y';
+				break;
 			}
 			n++;
 		}
