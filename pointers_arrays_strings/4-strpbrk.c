@@ -12,7 +12,6 @@ char *_strpbrk(char *s, char *accept)
 {
 	int i = 0;
 	int n = 0;
-	int x = 0;
 
 	while (s[n] != '\0')
 	{
@@ -21,13 +20,14 @@ char *_strpbrk(char *s, char *accept)
 
 	while (i < (n + 1))
 	{
+		int x = 0;
+
 		while (accept[x] != '\0')
 		{
 			if (s[i] == accept[x])
 			{
 				char *p = &s[i];
 
-				_putchar(s[i]);
 				return (p);
 			}
 			x++;
