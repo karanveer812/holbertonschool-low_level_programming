@@ -11,7 +11,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i = 0;
-	char contains = 'n'
+	char contains = 'n';
 	unsigned int byte = 0;
 
 	while (s[i] != '\0')
