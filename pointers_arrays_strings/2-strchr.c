@@ -18,7 +18,7 @@ char *_strchr(char *s, char c)
 		n++;
 	}
 
-	while (s[i] < (n + 1))
+	while (i < (n + 1))
 	{
 		_putchar(s[i]);
 		if (s[i] == c)
