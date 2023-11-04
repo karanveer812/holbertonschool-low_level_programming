@@ -8,19 +8,14 @@
 void print_diagsums(int *a, int size)
 {
 	int x = 0;
-	int y = 0;
 	int d1 = 0;
 	int d2 = 0;
 
-	while (y < size)
+	while (x < size)
 	{
-		while (x < size)
-		{
-			d1 += a[x][x];
-			d2 += a[x][size - x];
-			x++;
-		}
+		d1 += a[x]
+		x = x + (size + 1);
 	}
 
-	printf("%d", "%d", d1, d2);
+	printf("%d", d1);
 }
