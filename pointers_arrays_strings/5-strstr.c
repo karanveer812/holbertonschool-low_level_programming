@@ -2,11 +2,11 @@
 #include <stddef.h>
 
 /**
- * _strpbrk - searches a string for any of a set of bytes.
- * @s: Input string
- * @accept: string to confirm
+ * _strstr - locates a substring
+ * @haystack: Input string
+ * @needle: To check occurance in
  *
- * Return: return pointer to the character
+ * Return: return pointer to the character of the first occurance
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -16,6 +16,11 @@ char *_strstr(char *haystack, char *needle)
 	while (needle[needleLen] != '\0')
 	{
 		needleLen++;
+	}
+
+	if (needleLen == 0)
+	{
+		return (haystack)
 	}
 
 	while (haystack[haystackLen] != '\0')
@@ -33,6 +38,7 @@ char *_strstr(char *haystack, char *needle)
 			if (needleTemp == needleLen)
 			{
 				char *p = &haystack[haystackLen];
+
 				return (p);
 			}
 		}
