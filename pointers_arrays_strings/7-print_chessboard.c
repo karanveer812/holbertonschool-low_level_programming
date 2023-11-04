@@ -15,7 +15,7 @@ void print_chessboard(char (*a)[8])
 
 	while (x <= (8*8))
 	{
-		printf(*a[x]);
+		printf("%s", *a[x]);
 		x++;
 	}
 }
