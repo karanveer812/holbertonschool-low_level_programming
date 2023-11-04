@@ -12,10 +12,16 @@
 void print_chessboard(char (*a)[8])
 {
 	int x = 0;
+	int y = 0;
 
-	while (x <= (8*8))
+	while (y < 8)
 	{
-		printf("%s", a[x]);
-		x++;
+		x = 0;
+		while (x < 8)
+		{
+			_putchar(a[y][x])
+			x++;
+		}
+		y++;
 	}
 }
