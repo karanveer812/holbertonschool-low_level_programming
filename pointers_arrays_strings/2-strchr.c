@@ -20,7 +20,6 @@ char *_strchr(char *s, char c)
 
 	while (i < (n + 1))
 	{
-		_putchar(s[i]);
 		if (s[i] == c)
 		{
 			char *p = &s[i];
