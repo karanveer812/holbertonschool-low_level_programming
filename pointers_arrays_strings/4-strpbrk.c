@@ -25,6 +25,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[x])
 			{
+				_putchar(s[i]);
 				char *p = &s[i];
 				return (p);
 			}
