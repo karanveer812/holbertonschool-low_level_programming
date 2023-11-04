@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _memset - set the memory byffer to the given byte
@@ -16,7 +17,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			char *p = s[i];
+			char *p = &s[i];
 			return (p);
 			break;
 		}
