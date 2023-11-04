@@ -21,7 +21,7 @@ void print_diagsums(int *a, int size)
 	while (y <= ((size * size) - (size - 1)))
 	{
 		d2 += a[y];
-		y += y + (size - 1);
+		y = y + (size - 1);
 	}
 
 	printf("%d, %d", d1, d2);
