@@ -10,8 +10,6 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int i = 0;
-	int x = 0;
 	int haystackLen = 0;
 	int needleLen = 0;
 
@@ -34,7 +32,7 @@ char *_strstr(char *haystack, char *needle)
 			}
 			if (needleTemp == needleLen)
 			{
-				char *p = &haystack[haystackLen]
+				char *p = &haystack[haystackLen];
 				return (p);
 			}
 		}
