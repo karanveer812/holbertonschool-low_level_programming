@@ -2,12 +2,8 @@
 #include <stdio.h>
 
 /**
- * _memset - set the memory byffer to the given byte
- * @s: Input string
- * @b: desired byte to set
- * @n: number of characters to be replaced
- *
- * Return: desired string
+ * print_chessboard - prints chessboard
+ * @a: chessboard
  */
 void print_chessboard(char (*a)[8])
 {
