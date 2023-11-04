@@ -1,12 +1,12 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
- * _memset - set the memory byffer to the given byte
+ * _strchr - Find character in a string
  * @s: Input string
- * @b: desired byte to set
- * @n: number of characters to be replaced
+ * @c: character to find
  *
- * Return: desired string
+ * Return: pointer to the character
  */
 char *_strchr(char *s, char c)
 {
@@ -17,10 +17,10 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			char *p = &s[i];
+
 			return (p);
-			break;
 		}
 		i++;
 	}
-	return("");
+	return (NULL);
 }
