@@ -2,11 +2,11 @@
 #include <stddef.h>
 
 /**
- * _strchr - Find character in a string
+ * _strpbrk - searches a string for any of a set of bytes.
  * @s: Input string
- * @c: character to find
+ * @accept: string to confirm
  *
- * Return: pointer to the character
+ * Return: return pointer to the character
  */
 char *_strpbrk(char *s, char *accept)
 {
